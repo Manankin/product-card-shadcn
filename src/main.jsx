@@ -1,8 +1,9 @@
 import { createRoot } from 'react-dom/client';
+import ProductCard from './components/ProductCard';
 
 const element =document.querySelector('#root');
 createRoot(element).render(
   <div>
-    <h1>My new Vite-React App</h1>
+    <ProductCard />
   </div>
 );

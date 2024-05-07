@@ -1,0 +1,40 @@
+@tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+
+body {
+  margin: 5px;
+  border: 1px solid #f40d85;
+}
+
+.is-clickable {
+  cursor: pointer;
+}
+
+.image-block {
+  display: block;
+  object-position: 50% 50%;
+}
+
+.icon-block {
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+.not-favorite {
+  background-image: url('../src/assets/heart.svg');
+}
+
+.is-favorite {
+  background-image: url('../src/assets/heart-fill.svg');
+}
+
+.is-choose {
+  background-image: url('../src/assets/briefcase-fill.svg');
+}
+
+.not-choose {
+  background-image: url('../src/assets/briefcase.svg');
+}
+
